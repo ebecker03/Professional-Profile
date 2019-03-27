@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+}
+
+.heading {
+    background: #788a8a;
+    margin: 0 auto; 
+    padding-top: 50px;
+    border-bottom: solid 3px rgb(173, 165, 165);
+}
+
+.header-container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top {
+    background: rgb(173, 165, 165);
+    color: #fff;
+    width: auto;
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 30px;
+    border-radius: 3px;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box-1 {
+    padding: 0px 10px;
+    border-right: 2px solid #fff;
+    margin-bottom: 40px;
+}
+
+.box-2 {
+    padding: 0px 10px;
+    border-right: solid 2px #fff;
+    margin-bottom: 40px;
+}
+
+.box-3 {
+    padding: 0 px 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: blue;
+}
+
+.background {
+    background: url("../images/funky-lines.jpg");
+    padding: 20px 0px;
+}
+
+.content {
+    width: 960px;
+    text-align: center;
+    margin: 0px auto;
+    background: #fff;
+    position: relative;
+    padding: 30px;
+    margin-bottom: 30px;
+    background: rgb(235, 232, 232);
+    height: 100%;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 15px;
+    border-bottom: 3px solid #788a8a;
+    padding: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777;
+    font-size: 2em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: #788a8a;
+    text-align: left;
+}
+
+.image {
+    float: left;
+    margin: 15px;
+}
+
+form {
+    text-align: left;
+    margin: 15px 0px 20px 15px;
+}
+
+input {
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 3px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    display: block;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.submit {
+    width: 10%;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.submit:hover {
+
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: #fff;
+    border-top: 3px solid rgb(173, 165, 165);
+    background: #788a8a;
+    padding-top: 30px;
+    position: sticky;
+    bottom: 0;
+}
+
+
+
